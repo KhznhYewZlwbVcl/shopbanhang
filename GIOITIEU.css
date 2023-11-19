@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: #C6E2FF;
+    background-size: 100% auto;
+}
+.shop{
+    width: 100vw;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+}
+
+.up{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+}
+.up ul{
+    list-style: none;
+}
+.up ul li{
+    display: inline-table;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 30px;
+}
+.up ul li a:hover{
+    background: rgb(236, 227, 210);
+    border-style: solid;
+}
+
+.search input{
+    width: 150px;
+    height: 35px;
+    border: 0px;
+    border-radius: 30px;
+    padding: 10px 40px 10px 15px;
+}
+.search button{
+    height: 40px;
+
+}
+.search button img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.banner {
+    margin-top: 40px;
+}
+.banner img{
+    width: 100% ;
+    height: 476px;
+    background-size:auto;
+    margin-top: 10px;
+}
+.content{
+    padding: 0;
+    margin: 0;
+}
+#wrapper{
+    max-width: 1900px;
+}
+
+.content{
+    text-align: center;
+    margin: 40px 0px;
+}
+h1{
+    color: #111;
+    padding: 10px 20px;
+    text-transform:  uppercase;
+    display: inline-block;
+    color: #111;
+    font-weight: 600;
+}
+.footer{
+    text-align: center;
+    background-image: linear-gradient(110deg, rgba(88, 142, 223, 0.705) , rgba(255, 255, 255, 0));
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    line-height: 10px;
+    margin: 10px;
+    font-size: 20px;
+    bottom: 0;
+}
+.up ul li img{
+    vertical-align: middle;
+}
+.noidung{
+    font-size: 20px;
+}
+.anhnoidung img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h3{
+    font-size: 30px;
+    margin: 0 20px
+}
+p{
+    margin: 0 20px;
+    font-size: 20px;
+    line-height: 2;
+}
