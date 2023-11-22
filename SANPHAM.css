@@ -131,11 +131,6 @@ ul.sanpham li .ttsp{
     color: black;
     font-size: 30px;
 }
-.item .buy-now:hover{
-    background: rgb(218, 165, 218);
-    border-style: solid;
-    
-}
 .footer{
     text-align: center;
     background-image: linear-gradient(110deg, rgba(88, 142, 223, 0.705) , rgba(255, 255, 255, 0));
