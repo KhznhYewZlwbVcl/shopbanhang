@@ -1,0 +1,429 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: #C6E2FF;
+    background-size: 100% auto;
+}
+.shop{
+    width: 100vw;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+}
+.up{
+    width: 80%;@font-face {
+        font-family: 'Lato-Regular';
+        src: url('/assets/font/Lato/Lato-Regular.ttf') format('truetype'),  /* Định dạng WOFF2 */
+    }
+    html, body {
+        font-family: 'Lato-Regular' !important;
+        font-size: 12px;
+        margin: 0;
+        height: 100%;
+        
+    }
+    body{
+        height: 100%;
+        background-color: #C6E2FF;
+        background-size: 100% auto;
+    }
+    .shop{
+        width: 100vw;
+        height: auto;
+    }
+    
+    .menu{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .up{
+        width: 80%;
+        height: 70px;
+        margin: 0 auto;
+    }
+    .up ul{
+        list-style: none;
+    }
+    .up ul li{
+        display: inline-table;
+    }
+    .up ul li a{
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+        margin:8px 30px;
+    }
+    .search input{
+        width: 150px;
+        height: 35px;
+        border: 0px;
+        border-radius: 30px;
+        padding: 10px 40px 10px 15px;
+    }
+    .search button{
+        height: 40px;
+    
+    }
+    .search button img{
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+    }
+    
+    #carouselExample{
+        margin-top: 50px;
+    }
+    .content{
+        padding: 0;
+        margin: 0;
+    }
+    #wrapper{
+        max-width: 1900px;
+    }
+    
+    h1{
+        color: #111;
+        padding: 10px 20px;
+        text-transform:  uppercase;
+        display: inline-block;
+        color: #111;
+    }
+    .content{
+        text-align: center;
+        margin: 40px 0px;
+    }
+    
+    ul.sanpham{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style: none;
+        
+    }
+    ul.sanpham li .item{
+        background: #9cd1d8;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    
+    }
+    ul.sanpham li img{
+        width: 350px;
+        height: 350px;
+    }
+    ul.sanpham li{
+        flex-basis: 50%;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        box-sizing: border-box;
+    }
+    
+    ul.sanpham li .ttsp{
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .item .nameitem{
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+    }
+    .tien{
+        font-size: 30px;
+    }
+    .item .buy-now{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+    .footer{
+        text-align: center;
+        background-image: linear-gradient(110deg, rgba(88, 142, 223, 0.705) , rgba(255, 255, 255, 0));
+        color: rgb(0, 0, 0);
+        padding: 40px;
+        line-height: 10px;
+        margin: 10px;
+        font-size: 20px;
+        bottom: 0;
+    }
+    .up ul li img{
+        vertical-align: middle;
+    }
+    
+    .box-menu ul li a{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        min-width: 160px;
+    }
+    .box-menu ul li a:hover{
+        display: block;
+    }
+    .content  a{
+        text-decoration: none;
+        font-size: 50px;
+        color: black;
+        padding: 1px;
+    }
+    .buy-now{
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+    }
+    .shop .menu .up .menungang li a a:hover, .droptbn
+        {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 20px 22px;
+            text-decoration: none;
+        }
+    
+    .menungang a:hover, .dropdown:hover .droptbn
+        {
+            background-color:rgb(236, 227, 210);
+            transition: 0.5s;
+        }
+    li.dropdown
+        {
+            display: inline-block;
+        }
+    .dropdown-content
+        {
+            display: none;
+            position: absolute;
+            background-color:rgb(236, 227, 210);
+            min-width: 160px;
+        }
+    .dropdown-content a
+        {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            background-color:rgb(236, 227, 210);
+        }
+    .dropdown-content a:hover {background-color: cornflowerblue;}
+    .dropdown:hover .dropdown-content
+        {
+            display: block;
+        }
+    .slide{
+        z-index: -1;
+    }
+    height: 70px;
+    margin: 0 auto;
+}
+.up ul{
+    list-style: none;
+}
+.up ul li{
+    display: inline-table;
+}
+.menungang li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.up ul li a:hover{
+    background: rgb(236, 227, 210);
+    border-style: solid;
+}
+
+.search input{
+    width: 150px;
+    height: 35px;
+    border: 0px;
+    border-radius: 30px;
+    padding: 10px 40px 10px 15px;
+}
+.search button{
+    height: 40px;
+
+}
+.search button img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.banner {
+    margin-top: 40px;
+}
+.banner img{
+    width: 100% ;
+    height: 476px;
+    background-size:auto;
+    margin-top: 10px;
+}
+.content{
+    padding: 0;
+    margin: 0;
+}
+#wrapper{
+    max-width: 1900px;
+}
+
+h1{
+    color: #111;
+    padding: 10px 20px;
+    text-transform:  uppercase;
+    display: inline-block;
+    color: #111;
+}
+.content{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+ul.sanpham{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+ul.sanpham li .item{
+    background: #9cd1d8;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+ul.sanpham li img{
+    width: 350px;
+    height: 350px;
+}
+ul.sanpham li{
+    flex-basis: 50%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+ul.sanpham li .ttsp{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.item .nameitem{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.tien{
+    font-size: 30px;
+}
+.item .buy-now{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.footer{
+    text-align: center;
+    background-image: linear-gradient(110deg, rgba(88, 142, 223, 0.705) , rgba(255, 255, 255, 0));
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    line-height: 10px;
+    margin: 10px;
+    font-size: 20px;
+    bottom: 0;
+}
+.up ul li img{
+    vertical-align: middle;
+}
+
+.box-menu ul li a{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+}
+.box-menu ul li a:hover{
+    display: block;
+}
+.content .sanphamnoibat{
+    text-decoration: none;
+}
+.content  a{
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    padding: 1px;
+}
+.content a:link{
+    color: #CC99FF
+}
+a:hover{
+    color:#D2691E
+}
+.sanphamnoibat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.buy-now{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+}
+.badong a{
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    padding: 100px;
+}
+.shop .menu .up .menungang li a a:hover, .droptbn
+    {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 20px 22px;
+        text-decoration: none;
+    }
+.menungang a:hover, .dropdown:hover .droptbn
+    {
+        background-color:rgb(236, 227, 210);
+        transition: 0.5s;
+    }
+li.dropdown
+    {
+        display: inline-block;
+    }
+.dropdown-content
+    {
+        display: none;
+        position: absolute;
+        background-color: burlywood;
+        min-width: 160px;
+        z-index: 0;
+    }
+.dropdown-content a
+    {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+.dropdown-content a:hover {background-color: red;}
+.dropdown:hover .dropdown-content
+    {
+        display: block;
+    }

@@ -1,73 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop KhznhYewZlwbVcl</title>
-    <link rel="stylesheet" href="ADB.css">
-</head>
-<body>
-    <div class="shop">
-        <div class="menu">
-            <div class="up">
-                <ul>
-                    <li>
-                        <div class="logo">
-                            <a href="Trang Chủ">
-                                <img src="assets/logovipriel.png" alt="" width="190px" height="130xp">
-                            </a>
-                        </div>
-                        <div class="menungang">
-                            <li>
-                                <a href="TRANGCHU.html"> Trang Chủ</a>
-                            </li>
-                            <li>
-                                <a href="GIOITHIEU.html">Giới Thiệu</a>
-                            </li>
-                            <li>
-                                <li class="dropdown">
-                                     <a class="droptbn">Sản Phẩm</a>
-                                        <div class="dropdown-content">
-                                            <a href="ADB.html">Áo đá bóng</a>
-                                            <a href="GDB.html">Giày đá bóng</a>
-                                            <a href="PK.html">Phụ kiện</a>
-                                        </div>
-                                </li>        
-                            </li>
-                             <li>
-                                <a href="https://www.facebook.com/KhznhYewZlwbVcl">Liên Hệ</a>
-                            </li>
-                            <li>
-                            <div class="search"> 
-                            <input type="" name="" placeholder="Tìm kiếm áo">
-                            <button>
-                                <img src="assets/kinhlupvip.png" alt="" width="15px" height="13px">
-                            </button>
-                        </div>
-                    </li>
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop KhznhYewZlwbVcl</title>
+        <link rel="stylesheet" href="assets/css/ADB.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>Bootstrap Example</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="assets/font/Lato/Lato-Regular.ttf">
+    
+    
+    </head>
+    <body>
+        <div class="shop">
+            <div class="menu">
+                <div class="up">
+                    <ul>
+                        <li>
+                            <div class="logo">
+                                <a href="Trang Chủ">
+                                    <img src="assets/img/logovipriel.png" alt="" width="165px" height="130xp">
+                                </a>
+                            </div>
+                            <div class="menungang">
+                        <li>
+                            <a href="TRANGCHU.html"> Trang Chủ</a>
+                        </li>
+                        <li>
+                            <a href="GIOITHIEU.html">Giới Thiệu</a>
+                        </li>
+                        <li>
+                        <li class="dropdown">
+                            <a class="droptbn">Sản Phẩm</a>
+                            <div class="dropdown-content">
+                                <a href="ADB.html">Áo đá bóng</a>
+                                <a href="GDB.html">Giày đá bóng</a>
+                                <a href="PK.html">Phụ kiện</a>
+                            </div>
+                        </li>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/KhznhYewZlwbVcl">Liên Hệ</a>
+                        </li>
+                        <li>
+                            <div class="search">
+                                <input type="" name="" placeholder="Tìm kiếm áo">
+                                <button>
+                                    <img src="assets/img/kinhlupvip.png" alt="" width="15px" height="13px">
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="banner" >
-            <img src="assets/banner2.png" alt="">
+        <div class="slide">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/banner2.png" class="d-block w-100" alt="" width="1900px" height="500px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/bannermanh.png" class="d-block w-100" alt="" width="1900px" height="500px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/bannermanh1.png" class="d-block w-100" alt="" width="1900px" height="500px">
+                    </div>
+                </div>
+        
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+        
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+        
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+        
+            </div>
         </div>
         <div id="wrapper">
             <div class="content">
                 <div class="sanphamnoibat">
-                    <h1>Sản phẩm nổi bật</h1>
+                    <h1 style="font-weight: bold;">Sản Phẩm Của Chúng Tôi</h1>
                 </div>
                 
             <ul class="sanpham">
                 <li>
                     <div class="item">
                         <a href="" class="thumb">
-                            <img src="assets/quan ao 1.jpg" alt="">
+                            <img src="assets/img/quan ao 1.jpg" alt="">
                         </a>
                         <div class="ttsp">
                             <a href="" class="nameitem">
                                 <h2>Áo Real Madrid</h2>
                                 <div class="tien">
-                                    580.000vnd
+                                    580.000$
                                 </div>
                             </a>
                         </div>
@@ -78,13 +114,13 @@
                  <li>
                     <div class="item">
                         <a href="" class="thumb">
-                            <img src="assets/quan ao 2.jpg" alt="">
+                            <img src="assets/img/quan ao 2.jpg" alt="">
                         </a>
                         <div class="ttsp">
                         <a href="" class="nameitem">
                             <h2>Áo Manchester United</h2>
                             <div class="tien">
-                                610.000vnd
+                                610.000$
                             </div>
                         </a>
                         </div>
@@ -94,13 +130,13 @@
                  <li>
                     <div class="item">
                         <a href="" class="thumb">
-                            <img src="assets/quan ao 3.jpg" alt="">
+                            <img src="assets/img/quan ao 3.jpg" alt="">
                         </a>
                         <div class="ttsp">
                             <a href="" class="nameitem">
                                 <h2>Áo Số 10 Messi</h2>
                                 <div class="tien">
-                                    800.000vnd
+                                    800.000$
                                 </div>
                             </a>
                         
@@ -111,13 +147,13 @@
                  <li>
                     <div class="item">
                         <a href="" class="thumb">
-                            <img src="assets/quan ao mbappe.jpg" alt="">
+                            <img src="assets/img/quan ao mbappe.jpg" alt="">
                         </a>
                         <div class="ttsp">
                             <a href="" class="nameitem">
                                 <h2>Áo Số 10 Mbappe</h2>
                                 <div class="tien">
-                                    700.000vnd
+                                    700.000$
                                 </div>
                         </div>
                         <a href="" class="buy-now">Mua Ngay</a>
@@ -126,13 +162,13 @@
                  <li>
                     <div class="item">
                         <a href="" class="thumb">
-                            <img src="assets/quan ao 5.jpg" alt="">
+                            <img src="assets/img/quan ao 5.jpg" alt="">
                         </a>
                         <div class="ttsp">
                             <a href="" class="nameitem">
                                 <h2>Áo Arsenal Vàng</h2>
                                 <div class="tien">
-                                    540.000vnd
+                                    540.000$
                                 </div>
                             </a>
                         
@@ -143,13 +179,13 @@
                  <li>
                     <div class="item">
                         <a href="" class="thumb">
-                            <img src="assets/quan ao 6.jpg" alt="">
+                            <img src="assets/img/quan ao 6.jpg" alt="">
                         </a>
                         <div class="ttsp">
                             <a href="" class="nameitem">
                                 <h2>Áo Số 7 Ronaldo</h2>
                                 <div class="tien">
-                                    990.000vnd
+                                    990.000$
                                 </div>
                             </a>
                         
@@ -161,13 +197,13 @@
                  <li>
                     <div class="item">
                         <a href="" class="thumb">
-                            <img src="assets/bayen.png" alt="">
+                            <img src="assets/img/bayen.png" alt="">
                         </a>
                         <div class="ttsp">
                             <a href="" class="nameitem">
                                 <h2>Áo bóng đá Bayern Munich</h2>
                                 <div class="tien">
-                                    350.000vnd
+                                    350.000$
                                 </div>
                             </a>
                         
@@ -184,7 +220,7 @@
                             <a href="" class="nameitem">
                                 <h2>Mens Christmas Crest Green</h2>
                                 <div class="tien">
-                                    13.000.000vnd
+                                    13.000.000$
                                 </div>
                             </a>
                         
@@ -192,12 +228,108 @@
                         <a href="" class="buy-now">Mua Ngay</a>
                     </div>
                  </li>
+                 <li>
+                    <div class="item">
+                        <a href="" class="thumb">
+                            <img src="assets/img/aoducden.jpg">
+                        </a>
+                        <div class="ttsp">
+                            <a href="" class="nameitem">
+                                <h2>Quần áo Đức màu trắng sân nhà World Cup 2022</h2>
+                                <div class="tien">
+                                    500.000$
+                                </div>
+                            </a>
+                        </div>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+                 </li>
+                 <li>
+                    <div class="item">
+                        <a href="" class="thumb">
+                            <img src="assets/img/brazil.png" alt="">
+                        </a>
+                        <div class="ttsp">
+                            <a href="" class="nameitem">
+                                <h2>Áo bóng đá đội tuyển quốc gia Brazil</h2>
+                                <div class="tien">
+                                    350.000$
+                                </div>
+                            </a>
+                        </div>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <a href="" class="thumb">
+                            <img src="assets/img/aothumon.png" alt="">
+                        </a>
+                        <div class="ttsp">
+                            <a href="" class="nameitem">
+                                <h2>Áo Jersey thủ môn</h2>
+                                <div class="tien">
+                                    250.000$
+                                </div>
+                            </a>
+                        </div>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <a href="" class="thumb">
+                            <img src="assets/img/aodabongkiddo.avif" alt="">
+                        </a>
+                        <div class="ttsp">
+                            <a href="" class="nameitem">
+                                <h2>Áo thun đá bóng Viralto cho trẻ em - Đỏ</h2>
+                                <div class="tien">
+                                    295.000$
+                                </div>
+                            </a>
+                        </div>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <a href="" class="thumb">
+                            <img src="assets/img/croatia.jpg" alt="">
+                        </a>
+                        <div class="ttsp">
+                            <a href="" class="nameitem">
+                                <h2>Áo Thun Số 98 Croatia World Cup</h2>
+                                <div class="tien">
+                                    295.000$
+                                </div>
+                            </a>
+                        </div>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <a href="" class="thumb">
+                            <img src="assets/img/croatia.jpg" alt="">
+                        </a>
+                        <div class="ttsp">
+                            <a href="" class="nameitem">
+                                <h2>Áo Thun Số 98 Croatia World Cup</h2>
+                                <div class="tien">
+                                    295.000$
+                                </div>
+                            </a>
+                        </div>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+                </li>
             </ul>
         </div>
         <div class="footer">
             <p>Email :Khznhyewzlwbvcl@gmail.com</p>
             <p>Address: 68 Nguyen Chi Thanh, Dong Da, Ha Noi</p>
-            <h5>&copy; Copyright 2023. Aodabongvip.com
+            <h5>&copy; Copyright 2023. khznhyewzlwbvcl.com
         </div>
     </div>
 

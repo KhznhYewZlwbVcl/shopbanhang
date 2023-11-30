@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'assets/font/Roboto/Roboto-Regular.ttf';
+    src: url('/assets/font/Roboto/Roboto-Regular.ttf') format('truetype'),  /* Định dạng WOFF2 */
+}
 html, body {
+    font-family: 'Lato-Regular' !important;
+    font-size: 12px;
     margin: 0;
     height: 100%;
+    
 }
 body{
     height: 100%;
@@ -11,6 +18,7 @@ body{
     width: 100vw;
     height: auto;
 }
+
 .menu{
     width: 100%;
     height: 100%;
@@ -34,35 +42,25 @@ body{
     color: black;
     margin:8px 30px;
 }
-.up ul li a:hover{
-    background: rgb(236, 227, 210);
-    border-style: solid;
-}
-
 .search input{
     width: 150px;
     height: 35px;
-    border: 0px;
+    border: 1px solid #000000;
     border-radius: 30px;
     padding: 10px 40px 10px 15px;
+
 }
 .search button{
     height: 40px;
-
 }
 .search button img{
     width: 25px;
     height: 25px;
     vertical-align: middle;
 }
-.banner {
-    margin-top: 40px;
-}
-.banner img{
-    width: 100% ;
-    height: 476px;
-    background-size:auto;
-    margin-top: 10px;
+
+#carouselExample{
+    margin-top: 50px;
 }
 .content{
     padding: 0;
@@ -72,18 +70,33 @@ body{
     max-width: 1900px;
 }
 
-.content{
-    text-align: center;
-    margin: 40px 0px;
-}
 h1{
     color: #111;
     padding: 10px 20px;
     text-transform:  uppercase;
     display: inline-block;
     color: #111;
-    font-weight: 600;
 }
+.content {
+    text-align: center;
+}
+.noidung h3{
+    font-size: 30px;
+    text-indent: 20px;
+}
+.noidung p{
+    font-size: 15px;
+    text-indent: 20px;
+}
+
+
+.anhnoidung{
+    background-image: url(https://sumstore.vn/wp-content/uploads/2023/06/shop-bong-da-sum-store-hcm-2.jpg); width: 888px; height: 666px;
+    background-position: center;
+    margin-left: 450px;
+}
+
+
 .footer{
     text-align: center;
     background-image: linear-gradient(110deg, rgba(88, 142, 223, 0.705) , rgba(255, 255, 255, 0));
@@ -97,48 +110,46 @@ h1{
 .up ul li img{
     vertical-align: middle;
 }
-.noidung{
-    font-size: 20px;
+.content  a{
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    padding: 1px;
 }
-.anhnoidung img{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-h3{
-    font-size: 30px;
-    margin: 0 20px
-}
-p{
-    margin: 0 20px;
-    font-size: 20px;
-    line-height: 2;
+.slide{
+    z-index: -1;
 }
 .shop .menu .up .menungang li a a:hover, .droptbn
     {
         display: inline-block;
         color: black;
         text-align: center;
-        padding: 20px 22px;
         text-decoration: none;
     }
+
 .menungang a:hover, .dropdown:hover .droptbn
     {
-        background-color:rgb(236, 227, 210);
+        background-color:rgb(255, 255, 255);
         transition: 0.5s;
     }
+
 li.dropdown
     {
         display: inline-block;
     }
+
+.menungang li.dropdown ul {
+  width: 350px;
+}
+
 .dropdown-content
     {
         display: none;
         position: absolute;
-        background-color: burlywood;
-        min-width: 160px;
-        z-index: 0;
+        background-color:rgb(255, 255, 255);
+        min-width: 350px;
     }
+
 .dropdown-content a
     {
         color: black;
@@ -146,9 +157,20 @@ li.dropdown
         text-decoration: none;
         display: block;
         text-align: left;
+        background-color:rgb(255, 255, 255);
+        font-size: 80px;
     }
-.dropdown-content a:hover {background-color: red;}
+
+.dropdown-content a:hover {background-color: rgb(205, 220, 250);}
+
 .dropdown:hover .dropdown-content
     {
         display: block;
     }
+
+.slide{
+    z-index: -1;
+}
+.dropdown-content {
+    width: 50px;
+  }
