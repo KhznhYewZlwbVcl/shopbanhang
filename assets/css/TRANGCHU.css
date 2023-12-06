@@ -137,6 +137,7 @@ ul.sanpham li .ttsp{
     margin: 10px;
     font-size: 20px;
     bottom: 0;
+    line-height: 20px;
 }
 .up ul li img{
     vertical-align: middle;
