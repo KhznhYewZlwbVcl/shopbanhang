@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop KhznhYewZlwbVcl</title>
-    <link rel="stylesheet" href="assets/css/TRANGCHU.css">
+    <link rel="stylesheet" href="assets/css/tc1.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Bootstrap Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -95,62 +95,35 @@
     <div id="wrapper">
         <div class="content">
             <h1 style="font-weight: bold;">Sản phẩm bán chạy</h1>
+        </div>   
+      <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img  src="assets/img/quan ao 1.jpg" alt="" style="width: 490px; height: 450px;">
+            </div>
+            <div class="image">
+                <img id="ig" src="assets/img/quan ao 1.jpg" alt="" onclick="showImg(this.src)">
+            </div>
         </div>
-        <div class="list">
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/quan ao 1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Áo Real Madrid</h5>
-                  <p class="card-text">$350.00</p>
-                  <a href="tc1.html" class="btn btn-primary stretched-link">Mua ngay</a>
-                </div>
-              </div>
-    
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/quan ao 3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Áo số 10 Messi</h5>
-                  <p class="card-text">$500.000</p>
-                  <a href="tc2.html" class="btn btn-primary stretched-link">Mua ngay</a>
-                </div>
-              </div>
-
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/bong1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Bóng Molten</h5>
-                  <p class="card-text">$92</p>
-                  <a href="tc3.html" class="btn btn-primary stretched-link">Mua ngay</a>
-                </div>
-              </div>
-    
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/giay2juan.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Giày Nike Mercurial</h5>
-                  <p class="card-text">$750.000</p>
-                  <a href="tc4.html" class="btn btn-primary stretched-link">Mua ngay</a>
-                </div>
-              </div>
-
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/gangtay.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Găng Adidas Predator</h5>
-                  <p class="card-text">$120.000</p>
-                  <a href="tc5.html" class="btn btn-primary stretched-link">Mua ngay</a>
-                </div>
-              </div>
-    
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/giayvip3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Giày Nike Zoom Mercurial</h5>
-                  <p class="card-text">$260.000</p>
-                  <a href="tc6.html" class="btn btn-primary stretched-link">Mua ngay</a>
-                </div>
-              </div>
+        <div class="right">
+            <div class="name">Áo Real Madrid</div>
+             <div class="price"> $350.000</div>
+             <div class="quantity"> 
+                <p>Số lượng:</p>
+                <input class="so" type="number" min="1" max="10" value="1">
+                <button class="cart-btn"> Thêm vào giỏ hàng</button>
+                <button class="buy-btn"> Mua ngay</button>
+             </div>
+             <div class="under">
+                <ul id="gh">
+                    <li>Giao hàng và đổi trả</li>
+                    <li>Đổi trả hàng trong vòng 3 ngày nếu lỗi từ nhà sản xuất.</li>
+                    <li>Không nhận đổi trả với lí do "Không vừa ý".</li>
+                </ul>
+               
+            </div>
         </div>
+    </div>
     </div>
   </body> 
     <section class="footer">
